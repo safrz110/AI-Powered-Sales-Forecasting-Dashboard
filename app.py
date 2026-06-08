@@ -9,8 +9,7 @@ import random
 
 # ─── Page Config ─────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="SalesPulse AI — Automated Sales Forecasting Classification System"
-",
+    page_title="SalesPulse AI — Automated Sales Forecasting Classification System",
     page_icon="📈",
     layout="wide",
     initial_sidebar_state="expanded",
