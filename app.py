@@ -19,8 +19,7 @@ st.set_page_config(
 # ----------------------------
 model = joblib.load("sales_forecasting_Regression_Model.pkl")
 
-st.write("Expected Features:")
-st.write(model.feature_names_in_)
+
 # ----------------------------
 # Custom CSS
 # ----------------------------
@@ -186,8 +185,7 @@ if st.button("🚀 Predict Sales"):
         "date": [date_str]
     })
 
-    st.write("Columns sent to model:")
-    st.write(data.columns.tolist())
+    
 
     # Prediction
     pred_log = model.predict(data)
